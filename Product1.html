@@ -21,14 +21,15 @@
 <li>FSC approved responsibly sourced paper </li>
 </ul>
 
-<img src=”(https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)”>
+<img src=(”https://images.unsplash.com/photo-1533066636271-fdbe3e84ad80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80”)>
 
 
 <!-- QUANTITY BUTTON-->
 <section class="container">
     <div class="product-quantity">
       <h3>Quantity</h3>
-      <input data-min="1" data-max="0" type="text" name="quantity" value="1" readonly="true"><div class="quantity-selectors-container">
+      <input class="quantity-input" data-min="1" data-max="0" type="text" name="quantity" value="1" readonly="true">
+      <div class="quantity-selectors-container">
         <div class="quantity-selectors">
           <button type="button" class="increment-quantity" aria-label="Add one" data-direction="1"><span>&#43;</span></button>
           <button type="button" class="decrement-quantity" aria-label="Subtract one" data-direction="-1" disabled="disabled"><span>&#8722;</span></button>
@@ -45,5 +46,55 @@
 
     
     <script src="script.js"></script>
+    <!-- Footer -->
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class=" p-4">        
+          
+          <!-- Section: Form -->
+          <section class="">
+              <form action="javascript:alert('Thanks for subscribing!');">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                  <p class="pt-2">
+                      <strong>Sign up for our newsletter</strong>
+                  </p>
+                  </div>
+                  <!--Grid column-->
+      
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example21" class="form-control" />
+                      <label class="form-label" for="form5Example21">Email address</label>
+                  </div>
+                  </div>
+                  <!--Grid column-->
+      
+                  <!--Grid column-->
+                  <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                      Subscribe
+                  </button>
+                  </div>
+                  <!--Grid column-->
+              </div>
+              <!--Grid row-->
+              </form>
+          </section>
+          <!-- Section: Form -->
+          </div>
+          <!-- Grid container -->
+                  
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © Made by Katharine, Eve and Emma for CFG 2023
+          </div>
+          <!-- Copyright -->
+      </footer>
 </body>
 </html>
