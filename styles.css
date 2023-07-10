@@ -1,0 +1,6 @@
+.hero-background {
+    min-height: 250px;
+    background-image: url("Images/header.jpg");
+    background-position: 0 50%;
+    background-size: cover;
+  }
