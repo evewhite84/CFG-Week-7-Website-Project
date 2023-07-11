@@ -94,6 +94,14 @@ html {
     opacity: 0.5;
   }
   /*QUANITY BUTTON*/
+
+  /*Main image gallery*/
+  h1 {
+    text-align: center;
+  }
+  p, h5 {
+    text-align: center;
+  }
       
 
 footer {
