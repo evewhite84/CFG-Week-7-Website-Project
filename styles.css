@@ -8,34 +8,40 @@
 
 HEAD
 
-  #artprint1
+#artprint1
   {
      padding-top: 50px;
      padding-right: 30px;
      padding-bottom: 50px;
-     padding-left: 80px;
-
+     padding-left: 30px;
+     font-family: 'Arimo', sans-serif;
   } 
 
-  #productheader
+#productheader
   {
      margin-top: 50px;
+     font-family: 'Arimo', sans-serif;
   }
   
 
-  #addtocart
+#addtocart
   {
   margin-top: 20px;
   margin-bottom: 20px;
- 
+  font-family: 'Arimo', sans-serif;
  }
 
 #ulproduct 
 {
  padding-top: 5px;
  padding-bottom: 50px;
-
+ font-family: 'Arimo', sans-serif;
 }  
+
+#productinfo {
+  margin-left: 75px;
+  font-family: 'Arimo', sans-serif;
+}
 /*QUANITY BUTTON
 html {
     font-size: 16px; 
