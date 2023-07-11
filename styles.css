@@ -95,12 +95,19 @@ html {
   }
   /*QUANITY BUTTON*/
 
+  /*navbar*/
+  .navbar {
+    font-family: 'Arimo', sans-serif;
+  }
+
   /*Main image gallery*/
   h1 {
     text-align: center;
+    font-family: 'Arimo', sans-serif;
   }
   p, h5 {
     text-align: center;
+    font-family: 'Arimo', sans-serif;
   }
   #maingalleryimg {
     min-width: 10px;
@@ -109,4 +116,5 @@ html {
       
 footer {
     background-color: #4CC1D9;
+    font-family: 'Arimo', sans-serif;
 }
