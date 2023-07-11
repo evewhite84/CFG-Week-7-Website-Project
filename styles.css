@@ -102,8 +102,11 @@ html {
   p, h5 {
     text-align: center;
   }
+  #maingalleryimg {
+    min-width: 10px;
+    max-height: 350px;
+  }
       
-
 footer {
     background-color: #4CC1D9;
 }
