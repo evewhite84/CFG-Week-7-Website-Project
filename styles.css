@@ -4,7 +4,39 @@
     background-position: 0 50%;
     background-size: cover;
   }
-/*QUANITY BUTTON*/
+
+
+HEAD
+
+  #artprint1
+  {
+     padding-top: 50px;
+     padding-right: 30px;
+     padding-bottom: 50px;
+     padding-left: 80px;
+
+  } 
+
+  #productheader
+  {
+     margin-top: 50px;
+  }
+  
+
+  #addtocart
+  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+ }
+
+#ulproduct 
+{
+ padding-top: 5px;
+ padding-bottom: 50px;
+
+}  
+/*QUANITY BUTTON
 html {
     font-size: 16px; 
     margin: 0;
@@ -93,7 +125,7 @@ html {
   .quantity-selectors button[disabled="disabled"] span {
     opacity: 0.5;
   }
-  /*QUANITY BUTTON*/
+  QUANITY BUTTON*/
 
   /*navbar*/
   .navbar {
