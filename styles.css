@@ -100,6 +100,10 @@ html {
     font-family: 'Arimo', sans-serif;
   }
 
+  .navbar-toggler {
+    background-color: transparent;
+  }
+
   /*Main image gallery*/
   h1 {
     text-align: center;
@@ -110,8 +114,8 @@ html {
     font-family: 'Arimo', sans-serif;
   }
   #maingalleryimg {
-    min-width: 10px;
-    max-height: 350px;
+    min-width: 15px;
+    max-height: 260px;
   }
       
 footer {
