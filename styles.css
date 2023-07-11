@@ -8,8 +8,7 @@
 
 HEAD
 
-#artprint1
-  {
+#artprint1 {
      padding-top: 50px;
      padding-right: 30px;
      padding-bottom: 50px;
@@ -17,22 +16,19 @@ HEAD
      font-family: 'Arimo', sans-serif;
   } 
 
-#productheader
-  {
+#productheader {
      margin-top: 50px;
      font-family: 'Arimo', sans-serif;
+     text-align: left;
   }
   
-
-#addtocart
-  {
+#addtocart {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Arimo', sans-serif;
  }
 
-#ulproduct 
-{
+#ulproduct {
  padding-top: 5px;
  padding-bottom: 50px;
  font-family: 'Arimo', sans-serif;
